@@ -102,7 +102,7 @@ header{
   grid-column-gap: 20px;
 }
 .category-product{
-  width: 100%;
+  width: 225px
 }
 .product-img{
   position: relative;
@@ -151,10 +151,40 @@ font-weight: 400;
 font-size:15px ;
 }
 .product-details-price{
-
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
-.product-price{}
-.compare-price{}
+.product-price{
+  color: #000;
+font-family: Khula;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.compare-price{
+  color: #8F8F8F;
+font-family: Khula;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: line-through;
+text-decoration-color: #8f8f8f; 
+  text-decoration-thickness: 1px;
+}
+
+.product-details-price span:last-child{
+  color: #FF3737;
+  font-family: Khula;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 .add-btn{
   width: 100%;
   background-color: #000;
