@@ -150,9 +150,21 @@ font-size: 16px;
 font-weight: 400;
 font-size:15px ;
 }
-.product-details-price{}
+.product-details-price{
+
+}
 .product-price{}
 .compare-price{}
+.add-btn{
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  border: none;
+  border-radius: 2px;
+}
 
 @media screen and (max-width: 767px) {
   .category-products{
